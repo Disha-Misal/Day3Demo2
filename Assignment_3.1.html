@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .one{
+            background-color: white;
+            margin: 40px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns:auto auto auto;
+            grid-template-rows:auto auto auto;
+            gap: 15px;
+            border:5px solid blue;
+            /* height: 500px;
+            width: 1160px; */
+            /* border-radius: 10%; */
+        }
+        .two{
+            background-color:gray;
+            padding: 50px;
+            font-size: 30px;
+            text-align: center;
+            border:5px solid black;
+            border-radius: 10%;
+        }
+        
+        @media only screen and (max-width:600px){
+            .one{
+                background-color: #ecf2f7;
+                grid-template-columns: auto;
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">A</div>
+        <div class="two">B</div>
+        <div class="two">C</div>
+        <div class="two">D</div>
+        <div class="two">E</div>
+        <div class="two">F</div>
+        <div class="two">G</div>
+        <div class="two">H</div>
+        <div class="two">I</div>
+
+    </div>
+    
+</body>
+</html>
